@@ -1,0 +1,93 @@
+/* (1366x768) WXGA Display */
+@media screen and (min-width: 1366px) and (max-width: 1920px) {}
+
+
+/*Medium Desktop Device*/
+@media screen and (min-width: 1200px) and (max-width: 1366px) {}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+    header .menu ul li {
+        padding-left: 26px;
+    }
+
+
+}
+
+
+/* Normal desktop :991px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .slicknav_menu {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .slicknav_menu {
+        display: block;
+        position: fixed;
+        top: 41px;
+        width: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        right: 50%;
+    }
+
+    /* about us  start*/
+    .main {
+        flex-direction: column-reverse;
+    }
+
+    .box_img {
+        text-align: center;
+    }
+
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .slicknav_menu {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .slicknav_menu {
+        display: block;
+        position: fixed;
+        top: 41px;
+        width: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        right: 50%;
+    }
+
+    /* about us  start*/
+    .main {
+        flex-direction: column-reverse;
+    }
+
+    #About_Us img {
+        max-width: 225px;
+    }
+
+    .box_img {
+        text-align: center;
+    }
+
+    /* end sbout us  */
+
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+
+/* small mobile :320px. */
+@media (min-width: 240px) and (max-width: 479px) {}
